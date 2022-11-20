@@ -1,8 +1,8 @@
 ﻿//Перезапуск проаграммы
 Restart:
-    Console.WriteLine("Повторить? [Y/N]");
+Console.Write("Повторить? [Y/N] ");
 string? Answer = Console.ReadLine();
-if (Answer.ToLower() == "y") 
+if (Answer.ToLower() == "y")
 {
     goto Restart;
 }

@@ -8,7 +8,7 @@
 int Prompt(string strMessage)
 {
     System.Console.Write(strMessage);
-    int temp = int.Parse(System.Console.ReadLine());
+    int temp = Convert.ToInt32(System.Console.ReadLine());
     return temp;
 }
 
